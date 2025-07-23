@@ -37,27 +37,29 @@
 <p><b>Abstract:</b>
 Cued Speech (CS) enhances lipreading by incorporating hand coding, thereby assisting hearing-impaired individuals in better perceiving spoken language. The CS Video-to-Speech (CSV2S) task aims to convert CS videos directly into intelligible speech. While existing approaches typically adopt a two-stage pipeline—first performing CS Recognition (CSR) followed by text-to-speech synthesis—this strategy often suffers from error accumulation and semantic misalignment. To address these issues, we propose <b>UniCUE</b>, the first unified framework for directly generating speech from CS videos. UniCUE seamlessly integrates CSR to extract fine-grained visual-semantic cues that enable more accurate and fluent speech synthesis. Its core components include a pose-aware visual processor for capturing detailed lip-hand visual signals, a semantic alignment pool for precise visual-to-semantic mapping, and a VisioPhonetic adapter to facilitate cross-task representation fusion. Extensive experiments on our newly collected Chinese CS dataset demonstrate that UniCUE significantly outperforms existing methods, establishing a new state-of-the-art in the CSV2S task.
 
-
 <p><b>UniCUE Framework</b></p>
 	<p style="text-align: center;">
-		<img src="assets/pipeline.png" height="400" width="700">
-</p>
-
-
-    <h2>📁 Dataset</h2>
-    <ul>
-      <li>11,282 videos</li>
-      <li>14 subjects (6 hearing, 8 deaf)</li>
-      <li>Rich annotations: phonemes, open pose gestures,speech,video</li>
-      <li>Format: MP4 +WAV+TXT</li>
-    </ul>
-
-    <h2>💡 Key Features</h2>
-    <ul>
-      <li>Diverse participants: inclusion of both deaf and hearing groups</li>
-      <li>Promotes accessibility and cross-modal language research</li>
-      <li>Useful for Cued Speech recognition and generation tasks</li>
-    </ul>
+		<img src="assets/pipeline.png" height="400" width="700"></p>
+	
+<h2>Comparison with SOTA methods </h2>
+<div class="grid-container">
+  <div class="grid-item header">CMML</div>
+  <div class="grid-item header">EcoCued</div>
+  <div class="grid-item header">CSR (ours)</div>
+  <div class="grid-item header">Lip2Speech</div>
+  <div class="grid-item header">LipVoicer</div>
+  <div class="grid-item header">CSV2S (ours)</div>
+  <div class="grid-item header">UniCUE (ours)</div>
+</div>
+<div class="grid-container">
+  <div class="grid-item"><video controls src="videos/gt_01.mp4"></video></div>
+  <div class="grid-item"><video controls src="videos/wav2lip_01.mp4"></video></div>
+  <div class="grid-item"><video controls src="videos/sadtalker_01.mp4"></video></div>
+  <div class="grid-item"><video controls src="videos/makeittalk_01.mp4"></video></div>
+  <div class="grid-item"><video controls src="videos/audio2head_01.mp4"></video></div>
+  <div class="grid-item"><video controls src="videos/evag_01.mp4"></video></div>
+  <div class="grid-item"><video controls src="videos/unicue_01.mp4"></video></div>
+</div>
 
     <footer>
       <p>© 2025| Designed with ❤️ for open research</p>
