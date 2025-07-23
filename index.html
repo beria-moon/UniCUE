@@ -34,15 +34,26 @@
   </p>
 </div>
 
-<h2>📝 Abstract</h2>
-<p>
-Cued Speech (CS) enhances lipreading through hand coding, helping the hearing-impaired better perceive spoken language. The CS Video-to-Speech (CSV2S) task aims to convert CS videos into intelligible speech. While existing methods rely on CS Recognition (CSR) followed by text-to-speech synthesis, this two-stage pipeline suffers from error accumulation and misalignment.
-We propose UniCUE, the first unified framework for directly generating speech from CS videos. UniCUE integrates CSR to provide fine-grained visual-semantic cues, enabling more accurate and fluent speech synthesis. Key components include:
-1.  A pose-aware visual processor capturing fine-grained lip-hand visual cues; 
-2. A semantic alignment pool for precise visual-semantics mapping,
-3. A VisioPhonetic adapter for cross-task representation fusion,
-Extensive experiments on our newly collected Chinese CS dataset demonstrate UniCUE’s superior performance over existing methods.
-</p>
+<h2 class="mt-5 mb-3 text-center">📝 Abstract</h2>
+<div class="mx-auto" style="max-width: 900px; font-size: 1.1rem; line-height: 1.8;">
+  <p>
+    <strong>Cued Speech (CS)</strong> enhances lipreading through hand coding, helping the hearing-impaired better perceive spoken language.
+    The <strong>CS Video-to-Speech (CSV2S)</strong> task aims to convert CS videos into intelligible speech. However, existing methods typically adopt a two-stage pipeline—Cued Speech Recognition (CSR) followed by text-to-speech synthesis—which suffers from error accumulation and modality misalignment.
+  </p>
+  <p>
+    We propose <strong>UniCUE</strong>, the first unified framework for directly generating speech from CS videos. UniCUE integrates CSR to provide fine-grained visual-semantic cues, enabling more accurate and fluent speech synthesis.
+  </p>
+  <p>Key components of UniCUE include:</p>
+  <ul>
+    <li>A <strong>pose-aware visual processor</strong> that captures fine-grained lip-hand visual cues;</li>
+    <li>A <strong>semantic alignment pool</strong> for precise visual-semantic mapping;</li>
+    <li>A <strong>VisioPhonetic adapter</strong> for cross-task representation fusion.</li>
+  </ul>
+  <p>
+    Extensive experiments on our newly collected <strong>Chinese Cued Speech dataset</strong> demonstrate the superiority of UniCUE over existing methods in both recognition and speech generation quality.
+  </p>
+</div>
+
 
 <p><b>UniCUE Framework</b></p>
 	<p style="text-align: center;">
