@@ -1,1 +1,72 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>UniCUE: Unified Recognition and Generation Framework for Chinese Cued Speech Video-to-Speech Generation</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <div class="container">
+
+    <h1>UniCUE</h1>
+    <h3>A Large-scale Chinese Cued Speech Dataset from Deaf and Hearing Participants</h3>
+
+    <p>
+      <strong>Authors:</strong> Anonymous authors <br>
+      <strong>Paper:</strong> <a href="https://arxiv.org/abs/xxxxx">[ArXiv]</a> |
+      <strong>Dataset:</strong> <a href="https://huggingface.co/datasets/UniCUE">[Huggingface]</a> |
+      <strong>Code:</strong> <a href="https://github.com/yourname/UniCUE">[GitHub]</a>
+    </p>
+    <h2>📝 Abstract</h2>
+    <p>
+Cued Speech (CS) enhances lipreading through hand coding, helping the hearing-impaired better perceive spoken language. The CS Video-to-Speech (CSV2S) task aims to convert CS videos into intelligible speech. While existing methods rely on CS Recognition (CSR) followed by text-to-speech synthesis, this two-stage pipeline suffers from error accumulation and misalignment.
+
+We propose UniCUE, the first unified framework for directly generating speech from CS videos. UniCUE integrates CSR to provide fine-grained visual-semantic cues, enabling more accurate and fluent speech synthesis. Key components include:
+
+1.  A pose-aware visual processor capturing fine-grained lip-hand visual cues; 
+2. A semantic alignment pool for precise visual-semantics mapping,
+3. A VisioPhonetic adapter for cross-task representation fusion,
+Extensive experiments on our newly collected Chinese CS dataset demonstrate UniCUE’s superior performance over existing methods.
+    </p>
+    <img src="assets/pipeline.png" alt="UniCUE Overview" width="100%">
+
+
+    <h2>📁 Dataset</h2>
+    <ul>
+      <li>11,282 videos</li>
+      <li>14 subjects (6 hearing, 8 deaf)</li>
+      <li>Rich annotations: phonemes, open pose gestures,speech,video</li>
+      <li>Format: MP4 +WAV+TXT</li>
+    </ul>
+
+    <h2>💡 Key Features</h2>
+    <ul>
+      <li>Diverse participants: inclusion of both deaf and hearing groups</li>
+      <li>Promotes accessibility and cross-modal language research</li>
+      <li>Useful for Cued Speech recognition and generation tasks</li>
+    </ul>
+
+<!--     <h2>📜 Citation</h2>
+    <pre>
+@article{wang2025unicue,
+  title={UniCUE: A Large-scale Chinese Cued Speech Dataset from Deaf and Hearing Participants},
+  author={Wang, Jinting and ...},
+  journal={ArXiv preprint arXiv:xxxx.xxxxx},
+  year={2025}
+} -->
+<!--     </pre> -->
+
+<!--     <h2>🔗 Related Links</h2>
+    <ul>
+      <li><a href="https://cuedspeech.org">CuedSpeech.org</a></li>
+      <li><a href="https://github.com">More on GitHub</a></li>
+    </ul> -->
+
+    <footer>
+      <p>© 2025| Designed with ❤️ for open research</p>
+    </footer>
+
+  </div>
+</body>
+</html>
