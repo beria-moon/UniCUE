@@ -41,7 +41,129 @@ Cued Speech (CS) enhances lipreading by incorporating hand coding, thereby assis
 	<p style="text-align: center;">
 		<img src="assets/pipeline.png" height="400" width="700"></p>
 
-<b>Comparison with SOTA Methods (Normal-hearing Cuers)</b>
+<section style="padding: 20px; font-family: Arial, sans-serif;">
+  <h3 style="text-align: center; margin-bottom: 20px;"><b>Comparison with SOTA Methods (Normal-hearing Cuers)</b></h3>
+
+  <style>
+    .video-container {
+      display: grid;
+      grid-template-columns: repeat(7, 1fr);
+      gap: 10px;
+    }
+
+    .video-container .header {
+      text-align: center;
+      font-weight: bold;
+      font-size: 14px;
+      padding: 5px 0;
+      background-color: #f0f0f0;
+      border-radius: 4px;
+    }
+
+    .video-container video {
+      width: 100%;
+      height: 160px;
+      object-fit: cover;
+      border-radius: 4px;
+      border: 1px solid #ddd;
+    }
+
+    @media (max-width: 1200px) {
+      .video-container {
+        grid-template-columns: repeat(3, 1fr);
+      }
+    }
+
+    @media (max-width: 768px) {
+      .video-container {
+        grid-template-columns: repeat(2, 1fr);
+      }
+    }
+
+    @media (max-width: 480px) {
+      .video-container {
+        grid-template-columns: 1fr;
+      }
+    }
+  </style>
+
+  <!-- Header Row -->
+  <div class="video-container">
+    <div class="header">CMML</div>
+    <div class="header">EcoCued</div>
+    <div class="header">CSR (ours)</div>
+    <div class="header">Lip2Speech</div>
+    <div class="header">LipVoicer</div>
+    <div class="header">CSV2S (ours)</div>
+    <div class="header">UniCUE (ours)</div>
+  </div>
+
+  <!-- Video Rows -->
+  <!-- Repeat this block for each row of video results -->
+  <div class="video-container">
+    <video controls src="videos/cmml_01.mp4"></video>
+    <video controls src="videos/ecocued_01.mp4"></video>
+    <video controls src="videos/csr_01.mp4"></video>
+    <video controls src="videos/lip2speech_01.mp4"></video>
+    <video controls src="videos/lipvoicer_01.mp4"></video>
+    <video controls src="videos/csv2s_01.mp4"></video>
+    <video controls src="videos/unicue_01.mp4"></video>
+  </div>
+
+  <div class="video-container">
+    <video controls src="videos/cmml_02.mp4"></video>
+    <video controls src="videos/ecocued_02.mp4"></video>
+    <video controls src="videos/csr_02.mp4"></video>
+    <video controls src="videos/lip2speech_02.mp4"></video>
+    <video controls src="videos/lipvoicer_02.mp4"></video>
+    <video controls src="videos/csv2s_02.mp4"></video>
+    <video controls src="videos/unicue_02.mp4"></video>
+  </div>
+	
+    <div class="video-container">
+    <video controls src="videos/cmml_03.mp4"></video>
+    <video controls src="videos/ecocued_03.mp4"></video>
+    <video controls src="videos/csr_03.mp4"></video>
+    <video controls src="videos/lip2speech_03.mp4"></video>
+    <video controls src="videos/lipvoicer_03.mp4"></video>
+    <video controls src="videos/csv2s_03.mp4"></video>
+    <video controls src="videos/unicue_03.mp4"></video>
+  </div>
+	
+  <div class="video-container">
+    <video controls src="videos/cmml_04.mp4"></video>
+    <video controls src="videos/ecocued_04.mp4"></video>
+    <video controls src="videos/csr_04.mp4"></video>
+    <video controls src="videos/lip2speech_04.mp4"></video>
+    <video controls src="videos/lipvoicer_04.mp4"></video>
+    <video controls src="videos/csv2s_04.mp4"></video>
+    <video controls src="videos/unicue_04.mp4"></video>
+  </div>
+	
+  <div class="video-container">
+    <video controls src="videos/cmml_05.mp4"></video>
+    <video controls src="videos/ecocued_05.mp4"></video>
+    <video controls src="videos/csr_05.mp4"></video>
+    <video controls src="videos/lip2speech_05.mp4"></video>
+    <video controls src="videos/lipvoicer_05.mp4"></video>
+    <video controls src="videos/csv2s_05.mp4"></video>
+    <video controls src="videos/unicue_05.mp4"></video>
+  </div>
+
+  <div class="video-container">
+    <video controls src="videos/cmml_06.mp4"></video>
+    <video controls src="videos/ecocued_06.mp4"></video>
+    <video controls src="videos/csr_06.mp4"></video>
+    <video controls src="videos/lip2speech_06.mp4"></video>
+    <video controls src="videos/lipvoicer_06.mp4"></video>
+    <video controls src="videos/csv2s_06.mp4"></video>
+    <video controls src="videos/unicue_06.mp4"></video>
+  </div>
+
+</section>
+
+
+<b>Comparison with SOTA Methods (Hearing-impaired Cuers)</b>
 
 <style>
   .video-grid {
